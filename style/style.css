@@ -62,13 +62,14 @@
   width: 25vw;
   height: 100vh;
   top: 0;
-  left: 0;
   position: fixed;
   background-color: #AEAAA7;
   transition: transform .3s cubic-bezier(0, .52, 0, 1);
+  transition: left 0.4s linear;
 }
 .game-selection-head{
-  margin-bottom: 100px;
+  margin-top: 20px;
+  margin-bottom: 50px;
 }
 .game-selection-head, .game-title{
   text-align: center;
@@ -79,6 +80,10 @@
 .game-title{
 height: 10vh;
 list-style: none;
+}
+.game-title:hover{
+  background-color: #eee;
+  cursor: pointer;
 }
 .separator{
   height: 1px;

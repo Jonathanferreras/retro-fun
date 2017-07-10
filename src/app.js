@@ -10,19 +10,23 @@ class App extends Component {
     super(props);
 
     this.state = {
-      left: "-25vw"
+      visible: false,
+      init: false
     };
     this.handleMouseDown.bind(this);
   }
 
   handleMouseDown() {
-    this.setState({left: "0"})
+    this.setState({visible: !this.state.visible})
   }
 
   render() {
-    var changeStyle = {
-      left: this.state.left
-    }
+    var changeStyle =
+      (this.state.visible != this.state.init)
+      ? {left: 0} : {left: "-25vw"};
+
+    console.log(changeStyle)
+
 
     return(
         <div className="app-container">
