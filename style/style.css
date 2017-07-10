@@ -1,0 +1,86 @@
+*{
+  font-family: 'Shrikhand', cursive;
+}
+/*---------------*/
+/*Styling for app*/
+/*---------------*/
+.app{
+  background-color: #232323;
+  height: 100vh;
+}
+.app-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+/*----------------*/
+/*Styling for logo*/
+/*----------------*/
+.logo{
+  margin: auto;
+  margin-top: 20px;
+  width: 200px;
+}
+/*-----------------------*/
+/*Styling for Game Screen*/
+/*-----------------------*/
+.game-screen{
+  margin: auto;
+  margin-top: 50px;
+  height: 400px;
+  width: 400px;
+  background-color: #404041;
+  border: solid 2px;
+  border-radius: 20px;
+}
+.screen-msg{
+  margin-top: 180px;
+  text-align: center;
+  color: #232323;
+}
+/*----------------------------*/
+/*Styling for load game button*/
+/*----------------------------*/
+.load-game-button{
+  margin: auto;
+  width: 150px;
+  margin-top: 20px;
+  background-color: #AEAAA7;
+  color: #CD1E00;
+  border: solid #7D7D7D 1px;
+  border-radius: 20px;
+  letter-spacing: 1px;
+}
+.load-button:hover{
+  background-color: #7D7D7D;
+  color: red;
+}
+/*--------------------------*/
+/*Styling for game selection*/
+/*--------------------------*/
+.game-selection{
+  width: 25vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  position: fixed;
+  background-color: #AEAAA7;
+  transition: transform .3s cubic-bezier(0, .52, 0, 1);
+}
+.game-selection-head{
+  margin-bottom: 100px;
+}
+.game-selection-head, .game-title{
+  text-align: center;
+}
+.game-list{
+  padding: 0;
+}
+.game-title{
+height: 10vh;
+list-style: none;
+}
+.separator{
+  height: 1px;
+  background-color: #7D7D7D;
+}

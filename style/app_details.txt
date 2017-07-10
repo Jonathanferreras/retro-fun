@@ -1,0 +1,6 @@
+color scheme:
+  #232323 black
+  #CD1E00 red
+  #404041 dark grey
+  #7D7D7D med grey
+  #AEAAA7 light grey
