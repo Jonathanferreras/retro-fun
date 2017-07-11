@@ -25,9 +25,6 @@ class App extends Component {
       (this.state.visible != this.state.init)
       ? {left: 0} : {left: "-25vw"};
 
-    console.log(changeStyle)
-
-
     return(
         <div className="app-container">
           <img src={Logo} className="logo" alt="pic not found"/>

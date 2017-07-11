@@ -32,6 +32,7 @@
   background-color: #404041;
   border: solid 2px;
   border-radius: 20px;
+  position: relative;
 }
 .screen-msg{
   margin-top: 180px;
