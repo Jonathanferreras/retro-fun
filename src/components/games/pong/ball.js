@@ -7,8 +7,8 @@ export default class Ball extends Component {
       height: "1em",
       borderRadius: "8px",
       position: "absolute",
-      top: this.props.y + "em",
-      left: this.props.x + "em",
+      top: this.props.ball.y + "em",
+      left: this.props.ball.x + "em",
       backgroundColor: "white"
     }
 
